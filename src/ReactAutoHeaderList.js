@@ -106,7 +106,7 @@ class ReactAutoHeaderList extends Component {
     renderSection(sectionHeaderTitle, items, reactUniqueKey) {
         const { renderHeader, renderItem } = this.props;
         return (
-            <div key={reactUniqueKey}>
+            <div key={reactUniqueKey} style={{display: 'flex'}}>
                 {renderHeader(sectionHeaderTitle) }
                 {items.map(renderItem) }
             </div>
