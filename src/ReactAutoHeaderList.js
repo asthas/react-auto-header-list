@@ -134,7 +134,7 @@ class ReactAutoHeaderList extends Component {
 
         return (
             <div style={{display: 'flex', width: '100%'}}>
-                <div style={{display: 'flex', width: '100%', flexDirection: 'column', boxShadow: '1px 0 0 #fff'}}>
+                <div style={{display: 'flex', width: '100%', flexDirection: 'column', boxShadow: '1px 0 0 rgba(255, 255, 255, 0.2)'}}>
                     {listContent}
                 </div>
                 <div>
